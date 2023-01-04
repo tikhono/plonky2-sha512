@@ -6,11 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-plonky2 = { git = "https://github.com/polymerdao/plonky2", rev = "4cb0b48df1d227d5461a4c28ed025aaea64e2e62" }
-plonky2_util = { git = "https://github.com/polymerdao/plonky2", rev = "4cb0b48df1d227d5461a4c28ed025aaea64e2e62" }
-plonky2_field = { git = "https://github.com/polymerdao/plonky2", rev = "4cb0b48df1d227d5461a4c28ed025aaea64e2e62" }
-plonky2_u32 = { git = "https://github.com/polymerdao/plonky2", rev = "4cb0b48df1d227d5461a4c28ed025aaea64e2e62" }
-plonky2_ecdsa = { git = "https://github.com/polymerdao/plonky2", rev = "4cb0b48df1d227d5461a4c28ed025aaea64e2e62" }
+plonky2 = { git = "https://github.com/mir-protocol/plonky2", rev = "ae212cfbbd4325da0386a2d3ace5eb02d29d8d1b" }
+plonky2_util = { git = "https://github.com/mir-protocol/plonky2", rev = "ae212cfbbd4325da0386a2d3ace5eb02d29d8d1b" }
+plonky2_field = { git = "https://github.com/mir-protocol/plonky2", rev = "ae212cfbbd4325da0386a2d3ace5eb02d29d8d1b" }
+plonky2_u32 = { git = "https://github.com/mir-protocol/plonky2", rev = "ae212cfbbd4325da0386a2d3ace5eb02d29d8d1b" }
+plonky2_ecdsa = { git = "https://github.com/mir-protocol/plonky2", rev = "ae212cfbbd4325da0386a2d3ace5eb02d29d8d1b" }
 itertools = "0.10.0"
 rayon = "1.5.1"
 serde = { version = "1.0", features = ["derive"] }
